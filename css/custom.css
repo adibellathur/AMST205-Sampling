@@ -1,0 +1,83 @@
+html {
+  background-color: #111;
+}
+
+body {
+  background-color: #15151a;
+  color: #a19f95;
+}
+
+a {
+  color: #fcf8e3;
+}
+
+p {
+  color: #a19f95;
+}
+
+h1, .h1, h2, .h2 {
+  color: #fcf8e3;
+}
+
+h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  color: #e0dcc8;
+}
+
+.mark, mark {
+  background-color: transparent;
+}
+
+.navbar-toggler {
+  background-color: #f44336;
+}
+
+
+section.section.banner {
+  background-image: url("../images/vinyl-splash.jpg");
+  background-size: cover;
+  padding-top: 20px;
+}
+
+section.section.background {
+  background-image: url("../images/vinyl-splash.jpg");
+  background-size: contain;
+  padding-top: 20px;
+}
+
+section.section.conclusion {
+  background-image: url("../images/booth-splash.jpg");
+  background-size: cover;
+}
+
+.container.splash-header {
+  padding-top: 100px;
+}
+
+.testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.testimonial-group > .row > .scrolling-wrapper > .col-xs-4 {
+  display: inline-block;
+  float: none;
+}
+
+.testimonial-group > .row > .scrolling-wrapper > .col-xs-4 > .card {
+  background-color: #202025;
+  width: 500px;
+  height: auto;
+   margin: 20px;
+  padding: 20px;
+  border-radius: 5px;"
+}
+
+.testimonial-group > .row > .scrolling-wrapper > .col-xs-4 > .card > p {
+  white-space: normal;
+  overflow: hidden;
+}
+
+.large-card {
+  background-color: #202025;
+  padding: 40px 50px;
+  border-radius: 5px;
+}
